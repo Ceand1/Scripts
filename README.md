@@ -20,6 +20,8 @@ Hoje é dia x, do mês x do ano de 2021."
 
 No luga de nome deve ter o usuário que está executando o scripts, depois a data de execução. Em toda execução do script, a saída deve ser guardada em saudacao.log.
 
+Execução: ./saudacao.sh
+
 ### O script sed.sh deve:
 
 #### a - Selecionar todos os arquivos .html no diretório de execução, mudar as letras dos nomes para maiúsculas e mudar a extensão para .htm.
@@ -31,3 +33,23 @@ No luga de nome deve ter o usuário que está executando o scripts, depois a dat
 ##### 2 - Cria um arquivo para cada turma, contendo apenas os alunos daquela turma.
 
 ##### 3 - Cria um arquivo de recuperação, contendo os alunos com média abaixo de 6.
+
+Execução: ./sed.sh arquivo
+
+## 5
+
+### maiorDe3Verificado.sh recebe 3 parâmetros, retorna o maior número dos 3 e reclama caso um dos parâmetros não for número.
+
+Execução: ./maiorDe3Verificado.sh n1 n2 n3
+
+### O script agenda.sh gerencia a agenda de contatos agenda.db. Possui 3 operações:
+
+#### 1 - adicionar:
+Execução: ./agenda.sh adicionar nome email
+
+#### 2 - listar:
+Execução: ./agenda.sh listar
+
+#### 3 - remover:
+Execução ./agenda.db remover email
+

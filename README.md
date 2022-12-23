@@ -53,3 +53,19 @@ Execução: ./agenda.sh listar
 #### 3 - remover:
 Execução ./agenda.db remover email
 
+## 6
+
+### O script latencia.sh recebe um arquivo de texto com 1 IP por linha.
+
+Deve enviar 10 pacotes ICMP, por meio do comando ping, para cada IP e retornar o tempo médio de resposta para cada IP, em ordem crescente.
+
+Execução: ./latencia.sh arquivo
+
+### O script cinco_diretorios.sh deve criar 5 diretorios e em cada:
+
+#### 1 - Criar 5 subdiretórios.
+
+#### 2 - Em cada subdiretório, criar 4 arquivos de texto. Em cada arquivo ter linhas iguais ao número do arquivo.
+
+Execução: ./cinco_diretorios.sh
+

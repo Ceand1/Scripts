@@ -69,3 +69,24 @@ Execução: ./latencia.sh arquivo
 
 Execução: ./cinco_diretorios.sh
 
+## 7
+
+### alertaDiretorio.sh recebe um inteiro e um caminho de diretorio e deve a cada intervalo de tempo representado pelo inteiro:
+
+#### 1 - Informar se houve alteração no diretório, com a data da mesma.
+
+#### 2 - Quantos arquivos existiam antes da alteração.
+
+#### 3 - Quantos arquivos há depois da alteração.
+
+#### 4 - Qual arquivo foi adicionado ou removido.
+
+Execução: ./alertaDiretorio.sh n caminho
+
+## 8
+
+### O script calculadora.sh funciona como uma calculadora para operações básicas, para inteiros e ponto flutuante.
+
+### 
+
+

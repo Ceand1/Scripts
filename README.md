@@ -107,4 +107,54 @@ Execução: ./hosts.sh -d hostname
 
 Execução: ./hosts.sh -l
 
+## 10
+
+### Atividade 3 e questão 1 da atividade 6 feitas usando awk.
+
+Execução: awk -f file.awk auth.log / awk -f ips_latencia.awk ips.txt
+
+## 11
+
+### O script compactador.sh:
+
+#### 1 - Apresenta uma tela requisitando o caminho de um diretório.
+
+#### 2 - Listar os nomes dos arquivos (sem subdiretórios) do diretório citado. O usuário pode escolher um ou mais arquivos.
+
+#### 3 - Exibe duas opções de compactação: gzip ou b2zip.
+
+#### 4 - Pede o nome do arquivo compactado criado.
+
+#### 5 - Cria o arquivo compactado com os arquivos selecionados.
+
+Execução: ./compactador.sh
+
+### cliente.sh e servidor.sh não estão funcionando.
+
+## 12
+
+### Cria um servidor web com uma página que implime nome e matrícula.
+
+Execução: ./servidorWeb chave_de_segurança
+
+## 13
+
+### O script:
+
+#### 1 - Cria uma instância.
+
+#### 2 - Carrega uma instância no SystemD que pega as seguintes informações:
+
+##### a - Horário e data da coleta das informações.
+
+##### b - Tempo em que a máquina está ativa.
+
+##### c - Carga média do sistema.
+
+##### d - Quantidade de memória livre e ocupada.
+
+##### e - Quantidade de bytes recebidos e enviados através da interface eth0.
+
+#### 3 - Carrega um servidor web que coloca as informações coletadas em uma página.
+
 

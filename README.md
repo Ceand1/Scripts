@@ -22,12 +22,12 @@ No luga de nome deve ter o usuário que está executando o scripts, depois a dat
 
 ### O script sed.sh deve:
 
-#### Selecionar todos os arquivos .html no diretório de execução, mudar as letras dos nomes para maiúsculas e mudar a extensão para .htm.
+#### a - Selecionar todos os arquivos .html no diretório de execução, mudar as letras dos nomes para maiúsculas e mudar a extensão para .htm.
 
-#### Será recebido um arquivo de texto com vários 5 colunas, nome, turma, nota1, nota2 e nota3, as turmas são divididas em A, B e C.
+#### b - Será recebido um arquivo de texto com vários 5 colunas, nome, turma, nota1, nota2 e nota3, as turmas são divididas em A, B e C.
 
-##### Em um único comando sed, o script altera A para INF, B para LOG e C para RED.
+##### 1 - Em um único comando sed, o script altera A para INF, B para LOG e C para RED.
 
-##### Cria um arquivo para cada turma, contendo apenas os alunos daquela turma.
+##### 2 - Cria um arquivo para cada turma, contendo apenas os alunos daquela turma.
 
-##### Cria um arquivo de recuperação, contendo os alunos com média abaixo de 6.
+##### 3 - Cria um arquivo de recuperação, contendo os alunos com média abaixo de 6.

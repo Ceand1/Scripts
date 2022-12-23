@@ -87,6 +87,24 @@ Execução: ./alertaDiretorio.sh n caminho
 
 ### O script calculadora.sh funciona como uma calculadora para operações básicas, para inteiros e ponto flutuante.
 
-### 
+### contaPalavras.sh, conta a quantidade de cada palavra em um arquivo de texto e retorna o resultado em ordem decrescente.
+
+Execução: ./contaPalavras.sh
+
+## 9
+
+### hosts.sh relaciona nomes de máquinas com IPs e guarda cada par no arquivo hosts.db. Possui as seguintes funções:
+
+#### 1 - adicionar.
+
+Execução: ./hosts.sh -a hostname -i IP
+
+#### 2 - remover.
+
+Execução: ./hosts.sh -d hostname
+
+#### 3 - procurar.
+
+Execução: ./hosts.sh -l
 
 

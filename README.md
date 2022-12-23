@@ -157,4 +157,21 @@ Execução: ./servidorWeb chave_de_segurança
 
 #### 3 - Carrega um servidor web que coloca as informações coletadas em uma página.
 
+Execução: ./instanciaServico chave_de_segurança
+
+## 14
+
+### Cria 2 instâncias:
+
+#### 1 - A primeira é criada com um servidor do MySQL.
+
+#### 2 - A segunda é criada com um cliente MySQL e pode acessar o banco de dados da primeira.
+
+Execução: ./criarDuasInstancias.sh chave_de_segurança user_do_BD password_do_BD
+
+### Cria 2 instâncias:
+
+#### 1 - A primeira é criada com um servidor do MySQL.
+
+#### 2 - A segunda é criada com um cliente MySQL e configura o wordpress por meio do pacote LAMP.
 
